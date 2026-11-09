@@ -1,0 +1,40 @@
+# Track source files and documentation only; keep datasets and artifacts local.
+*
+!*/
+!.gitignore
+!*.ipynb
+!*.py
+!*.R
+!*.r
+!*.sh
+!*.sql
+!*.md
+!*.toml
+!requirements*.txt
+!environment*.yml
+!environment*.yaml
+
+# Local Git history backup and notebook caches
+.git-backup-*/
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
+
+# Input data (including labels) and binary datasets
+/data/
+*.feather
+*.parquet
+*.arrow
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+.DS_Store
