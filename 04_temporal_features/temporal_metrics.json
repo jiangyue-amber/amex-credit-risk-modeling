@@ -1,0 +1,52 @@
+{
+  "baseline": {
+    "roc_auc": 0.9619244696039917,
+    "amex_metric": 0.7914096462881801,
+    "best_iteration": 1193,
+    "training_seconds": 616.7140190419741,
+    "feature_count": 897
+  },
+  "temporal_v2": {
+    "roc_auc": 0.962146684320197,
+    "amex_metric": 0.792613685300115,
+    "best_iteration": 1327,
+    "training_seconds": 606.4933557498734,
+    "feature_count": 1022
+  },
+  "delta": {
+    "roc_auc": 0.00022221471620531563,
+    "amex_metric": 0.0012040390119348876,
+    "best_iteration": 134,
+    "training_seconds": -10.220663292100653,
+    "feature_count": 125
+  },
+  "top25_original_variables": [
+    "P_2",
+    "B_1",
+    "R_1",
+    "D_39",
+    "B_2",
+    "B_9",
+    "S_3",
+    "D_42",
+    "D_44",
+    "B_4",
+    "B_3",
+    "B_11",
+    "D_41",
+    "D_43",
+    "D_46",
+    "R_2",
+    "R_3",
+    "B_37",
+    "B_7",
+    "D_48",
+    "D_49",
+    "D_51",
+    "P_3",
+    "D_50",
+    "S_23"
+  ],
+  "new_temporal_feature_count": 125,
+  "temporal_generation_seconds": 43.39901316608302
+}

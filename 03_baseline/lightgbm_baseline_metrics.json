@@ -1,0 +1,9 @@
+{
+  "train_rows": 321239,
+  "validation_rows": 137674,
+  "number_of_features": 897,
+  "best_iteration": 1193,
+  "roc_auc": 0.9619244696039917,
+  "log_loss": 0.21691698210984467,
+  "accuracy_at_0.5": 0.9040341676714557
+}

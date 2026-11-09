@@ -1,0 +1,87 @@
+{
+  "baseline_04_5": {
+    "model": "04.5 original",
+    "fold_auc_mean": 0.9613497896837977,
+    "fold_auc_std": 0.0006840266406925236,
+    "fold_amex_mean": 0.7916378159581208,
+    "fold_amex_std": 0.004538739887591856,
+    "oof_roc_auc": 0.9613427564692965,
+    "oof_amex_metric": 0.7915215646330132,
+    "best_iteration_mean": 1297.6666666666667,
+    "best_iteration_std": 118.40748850192429,
+    "total_training_seconds": 1715.5720760829863
+  },
+  "candidates": [
+    {
+      "model": "T11",
+      "fold_auc_mean": 0.9614665876981409,
+      "fold_auc_std": 0.0007783966586972864,
+      "fold_amex_mean": 0.7922763768801104,
+      "fold_amex_std": 0.004597320594049323,
+      "oof_roc_auc": 0.961463078976889,
+      "oof_amex_metric": 0.7919532616841471,
+      "best_iteration_mean": 813.0,
+      "best_iteration_std": 23.811761799581316,
+      "total_training_seconds": 1667.384200374996
+    },
+    {
+      "model": "T8",
+      "fold_auc_mean": 0.9614355263424984,
+      "fold_auc_std": 0.0007777380033430963,
+      "fold_amex_mean": 0.7918581857523571,
+      "fold_amex_std": 0.0037214170241766575,
+      "oof_roc_auc": 0.9614333497557218,
+      "oof_amex_metric": 0.7918940781182342,
+      "best_iteration_mean": 893.6666666666666,
+      "best_iteration_std": 157.0265370354111,
+      "total_training_seconds": 1598.9782796250001
+    }
+  ],
+  "winner_by_oof_amex": "T11",
+  "comparison": [
+    {
+      "model": "04.5 original",
+      "fold_auc_mean": 0.9613497896837977,
+      "fold_auc_std": 0.0006840266406925236,
+      "fold_amex_mean": 0.7916378159581208,
+      "fold_amex_std": 0.004538739887591856,
+      "oof_roc_auc": 0.9613427564692965,
+      "oof_amex_metric": 0.7915215646330132,
+      "best_iteration_mean": 1297.6666666666667,
+      "best_iteration_std": 118.40748850192429,
+      "total_training_seconds": 1715.5720760829863,
+      "delta_oof_auc_vs_original": 0.0,
+      "delta_oof_amex_vs_original": 0.0
+    },
+    {
+      "model": "T11",
+      "fold_auc_mean": 0.9614665876981409,
+      "fold_auc_std": 0.0007783966586972864,
+      "fold_amex_mean": 0.7922763768801104,
+      "fold_amex_std": 0.004597320594049323,
+      "oof_roc_auc": 0.961463078976889,
+      "oof_amex_metric": 0.7919532616841471,
+      "best_iteration_mean": 813.0,
+      "best_iteration_std": 23.811761799581316,
+      "total_training_seconds": 1667.384200374996,
+      "delta_oof_auc_vs_original": 0.0001203225075925296,
+      "delta_oof_amex_vs_original": 0.0004316970511339946
+    },
+    {
+      "model": "T8",
+      "fold_auc_mean": 0.9614355263424984,
+      "fold_auc_std": 0.0007777380033430963,
+      "fold_amex_mean": 0.7918581857523571,
+      "fold_amex_std": 0.0037214170241766575,
+      "oof_roc_auc": 0.9614333497557218,
+      "oof_amex_metric": 0.7918940781182342,
+      "best_iteration_mean": 893.6666666666666,
+      "best_iteration_std": 157.0265370354111,
+      "total_training_seconds": 1598.9782796250001,
+      "delta_oof_auc_vs_original": 9.059328642535558e-05,
+      "delta_oof_amex_vs_original": 0.00037251348522104877
+    }
+  ],
+  "fold_assignment_source": "/Users/amberjiang/Desktop/AMEX/07_baseline_cv/lightgbm_04_5_oof_predictions.parquet",
+  "customer_level": true
+}

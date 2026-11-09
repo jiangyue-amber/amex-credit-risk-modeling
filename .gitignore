@@ -1,4 +1,4 @@
-# Track source files and documentation only; keep datasets and artifacts local.
+# Track source, documentation, models, and generated results.
 *
 !*/
 !.gitignore
@@ -38,3 +38,14 @@ venv/
 *.pickle
 *.joblib
 .DS_Store
+
+# Trained models and generated reports/results
+!*.txt
+!*.json
+!*.joblib
+!*.csv
+!**/*_predictions.parquet
+
+# Always exclude raw input data and local history backups
+/data/
+.git-backup-*/

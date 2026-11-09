@@ -1,0 +1,64 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "train_customers": 305942,
+      "valid_customers": 152971,
+      "customer_overlap": 0,
+      "positive_rate": 0.25893143144779074,
+      "roc_auc": 0.9620473367583792,
+      "amex_metric": 0.7967815541956994,
+      "best_iteration": 1174,
+      "training_seconds": 534.0603395409998
+    },
+    {
+      "fold": 2,
+      "train_customers": 305942,
+      "valid_customers": 152971,
+      "customer_overlap": 0,
+      "positive_rate": 0.25893143144779074,
+      "roc_auc": 0.9606801368791271,
+      "amex_metric": 0.7899357902014781,
+      "best_iteration": 1410,
+      "training_seconds": 601.8229046249762
+    },
+    {
+      "fold": 3,
+      "train_customers": 305942,
+      "valid_customers": 152971,
+      "customer_overlap": 0,
+      "positive_rate": 0.2589379686345778,
+      "roc_auc": 0.9613218954138868,
+      "amex_metric": 0.7881961034771847,
+      "best_iteration": 1309,
+      "training_seconds": 578.7170400000177
+    }
+  ],
+  "summary": {
+    "fold_roc_auc_mean": 0.9613497896837977,
+    "fold_roc_auc_std": 0.0006840266406925236,
+    "fold_amex_mean": 0.7916378159581208,
+    "fold_amex_std": 0.004538739887591856,
+    "oof_roc_auc": 0.9613427564692965,
+    "oof_amex_metric": 0.7915215646330132,
+    "best_iteration_mean": 1297.6666666666667,
+    "best_iteration_std": 118.40748850192429,
+    "total_training_seconds": 1715.5720760829863,
+    "customer_count": 458913,
+    "feature_count": 1022
+  },
+  "single_holdout_04_5": {
+    "roc_auc": 0.9622113842161928,
+    "amex_metric": 0.7926643597558998,
+    "best_iteration": 1451,
+    "training_seconds": 554.6555657909994,
+    "feature_count": 1022
+  },
+  "split": {
+    "method": "StratifiedKFold",
+    "n_splits": 3,
+    "shuffle": true,
+    "random_state": 42,
+    "customer_level": true
+  }
+}

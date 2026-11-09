@@ -1,0 +1,104 @@
+{
+  "previous_04_5": {
+    "roc_auc": 0.9622113842161928,
+    "amex_metric": 0.7926643597558998,
+    "best_iteration": 1451,
+    "training_seconds": 645.1120789579581,
+    "feature_count": 1022
+  },
+  "categorical_05": {
+    "roc_auc": 0.9622190063844218,
+    "amex_metric": 0.7932049712218906,
+    "best_iteration": 1411,
+    "training_seconds": 644.6054773340002,
+    "feature_count": 1055
+  },
+  "delta_vs_04_5": {
+    "roc_auc": 7.622168229026727e-06,
+    "amex_metric": 0.0005406114659908257,
+    "best_iteration": -40,
+    "training_seconds": -0.5066016239579767,
+    "feature_count": 33
+  },
+  "categorical_variables": [
+    "B_30",
+    "B_38",
+    "D_114",
+    "D_116",
+    "D_117",
+    "D_120",
+    "D_126",
+    "D_63",
+    "D_64",
+    "D_66",
+    "D_68"
+  ],
+  "new_features": [
+    "B_30_nunique",
+    "B_30_num_changes",
+    "B_30_last_changed",
+    "B_38_nunique",
+    "B_38_num_changes",
+    "B_38_last_changed",
+    "D_114_nunique",
+    "D_114_num_changes",
+    "D_114_last_changed",
+    "D_116_nunique",
+    "D_116_num_changes",
+    "D_116_last_changed",
+    "D_117_nunique",
+    "D_117_num_changes",
+    "D_117_last_changed",
+    "D_120_nunique",
+    "D_120_num_changes",
+    "D_120_last_changed",
+    "D_126_nunique",
+    "D_126_num_changes",
+    "D_126_last_changed",
+    "D_63_nunique",
+    "D_63_num_changes",
+    "D_63_last_changed",
+    "D_64_nunique",
+    "D_64_num_changes",
+    "D_64_last_changed",
+    "D_66_nunique",
+    "D_66_num_changes",
+    "D_66_last_changed",
+    "D_68_nunique",
+    "D_68_num_changes",
+    "D_68_last_changed"
+  ],
+  "generation_seconds": 41.2085254159756,
+  "feature_type_summary": [
+    {
+      "categorical_feature_type": "nunique",
+      "feature_count": 11,
+      "gain_total": 1685.450144290924,
+      "average_gain": 153.222740390084,
+      "gain_share": 0.0003836414309057333,
+      "best_rank": 206,
+      "top_50_count": 0,
+      "top_100_count": 0
+    },
+    {
+      "categorical_feature_type": "num_changes",
+      "feature_count": 11,
+      "gain_total": 477.32852602005005,
+      "average_gain": 43.39350236545909,
+      "gain_share": 0.00010864931208718557,
+      "best_rank": 953,
+      "top_50_count": 0,
+      "top_100_count": 0
+    },
+    {
+      "categorical_feature_type": "last_changed",
+      "feature_count": 11,
+      "gain_total": 466.62713956832886,
+      "average_gain": 42.42064905166626,
+      "gain_share": 0.00010621346714396967,
+      "best_rank": 702,
+      "top_50_count": 0,
+      "top_100_count": 0
+    }
+  ]
+}

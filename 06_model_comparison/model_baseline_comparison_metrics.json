@@ -1,0 +1,19 @@
+{
+  "logistic_regression": {
+    "roc_auc": 0.9532228845926678,
+    "amex_metric": 0.7729049341649153,
+    "training_seconds": 110.89075474999845,
+    "feature_count_after_encoding": 1061,
+    "epochs": 5
+  },
+  "lightgbm_04_5": {
+    "roc_auc": 0.9622113842161928,
+    "amex_metric": 0.7926643597558998,
+    "best_iteration": 1451,
+    "training_seconds": 554.6555657909994,
+    "feature_count": 1022
+  },
+  "same_validation_customers": true,
+  "preprocessing": "train-only StandardScaler + mean imputation + one-hot encoding",
+  "optimizer": "SGD, log-loss, 5 epochs"
+}
